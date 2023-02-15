@@ -3,7 +3,7 @@ exports.handler = async (event) => {
       const { Configuration, OpenAIApi } = require("openai");
   
       const configuration = new Configuration({
-        apiKey: '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',
+        apiKey: '',
       });
   
       const openai = new OpenAIApi(configuration);
